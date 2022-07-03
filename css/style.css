@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/*---mengatur tag <body>---*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/*---mengatur tag <nav>---*/
+/*---untuk mempresentasikan link navigasi---*/
+nav {
+  text-align: right;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px;
+  z-index: 3;
+}
+/*---mengatur tag <img> di dalam tag nav---*/
+/*---untuk menampilkan gambar kedalam halaman web---*/
+nav img {
+  float: left;
+  height: 50px;
+  width: auto;
+  margin-left: 50px;
+}
+/*---mengatur tag <li> di dalam tag nav---*/
+/*---untuk menampilkan data secara berurutan dalam satu baris karena menggunakan display inline---*/
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  width: auto;
+  color: #636363;
+}
+/*---mengatur tag <a> di dalam tag nav---*/
+/*---untuk menentukan apakah link yang dituju terbuka di jendela browser saat ini atau terbuka di jendela baru---*/
+nav a {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: auto 50px auto auto;
+  color: inherit;
+  text-decoration: none;
+  font-family: Neuton;
+}
+/*---untuk mengubah warna teks link ketika kursor diarahkan ke link tsb---*/
+nav a:hover {
+  color: rgb(179, 79, 7);
+}
+/*---mengatur css pada class style---*/
+.style {
+  font-family: Spectral;
+  padding: 90px;
+  margin: 0px 0px 10px 0px;
+  text-align: left;
+  color: #fff;
+}
+/*---mengatur css pada class background dengan menambah bg img---*/
+.background {
+  margin: 0px;
+  background-image: url("../asset/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+/*---mengatur css pada tag <h1> di dalam background---*/
+.style h1 {
+  font-size: 45px;
+  margin-top: 70px;
+}
+/*---mengatur css pada tag <p> di dalam background---*/
+.style p {
+  font-size: 25px;
+  width: 390px;
+  margin-bottom: 40px;
+}
+/*---untuk penamaan elemen pada HTML yang memiliki karakteristik yang unik---*/
+/*---atau berbeda pada tag <div> di dalam tag <body>---*/
+#section-product {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/*---mengatur css pada tag <div> di dalam tag <body>---*/
+.container {
+  margin-left: 5.5%;
+  width: 1200px;
+}
+/*---mengatur css pada class "head" di dalam id "produk"---*/
+#produk .head {
+  text-align: center;
+}
+/*---mengatur css pada class "judul" di dalam id "produk"---*/
+#produk .judul {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+}
+/*---mengatur css pada class "deskjudul" di dalam id "produk"---*/
+#produk .deskjudul {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-left: 10px;
+}
+/*---mengatur css pada class "colum" di dalam id "produk"---*/
+#produk .colum {
+  width: 282px;
+  float: left;
+  text-align: center;
+  margin-left: 2%;
+}
+/*---mengatur css pada class "box" di dalam id "produk"---*/
+#produk .box {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+/*---mengatur css pada class "imgproduk" di dalam id "produk"---*/
+#produk .imgproduk {
+  width: auto;
+  height: 160px;
+}
+/*---mengatur css pada tag <h3> di dalam id "produk"---*/
+#produk h3 {
+  display: block;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.6);
+}
+/*---mengatur css pada tag <p> di dalam id "produk"---*/
+#produk p {
+  font-size: 18px;
+}
+/*---mengatur css pada class "style2" di dalam tag <div>---*/
+.style2 {
+  font-family: Spectral;
+  padding: 210px 0px 30px 0px;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+/*---mengatur css pada class "background2" di dalam tag <div>---*/
+.background2 {
+  margin-top: 50px;
+  background-image: url("../asset/bg2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+/*---mengatur css pada class "tagh3" dengan menambah background color di dalam tag <h3>---*/
+.tagh3 {
+  background-color: rgb(68, 38, 21);
+  margin-left: 130px;
+  width: 80%;
+  font-size: 18px;
+}
+/*---mengatur css pada class "detailtoko" di dalam tag <div>---*/
+.detailtoko {
+  margin-top: 80px;
+}
+/*---mengatur css pada class "about" di dalam tag <h2>---*/
+.about {
+  text-align: center;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+}
+/*---mengatur css pada class "line" di dalam tag <p>---*/
+.line {
+  background-color: rgba(148, 63, 14, 0.904);
+  width: 20%;
+  height: 15px;
+  text-align: center;
+  margin-left: 40%;
+  color: rgba(148, 63, 14, 0.904);
+}
+/*---mengatur css pada class "img_store" di dalam tag <img>---*/
+.img_store {
+  margin-top: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 260px;
+  margin-left: 50px;
+}
+/*---mengatur css pada class "desk_toko" di dalam tag <p>---*/
+.desk_toko {
+  margin-top: 50px;
+  float: left;
+  width: 380px;
+  font-size: 17px;
+  margin-left: 250px;
+  color: #636363;
+  line-height: 29px;
+}
+/*---mengatur class "form_test" di dalam tag <div>---*/
+.form_test {
+  background-position: bottom;
+  background-image: url("../asset/picture23.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #ffff;
+}
+/*---mengatur class "form" di dalam tag <h2>---*/
+.form {
+  font-size: 32px;
+  text-align: center;
+  color: #ffff;
+  background-color: rgb(68, 38, 21);
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+/*---mengatur class "flex" di dalam tag <div>---*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*---mengatur class "post" di dalam tag <div>---*/
+.post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+/*---mengatur class "nama" di dalam tag <input>---*/
+.nama {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/*---mengatur class "pesan" di dalam tag <textarea>---*/
+.pesan {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/*---mengatur class "kirim" di dalam tag <button>---*/
+.kirim {
+  padding: 10px;
+  background-color: #442615;
+  border: none;
+  color: white;
+  border-radius: 0.25rem;
+  width: 100px;
+}
+/*---mengatur class "edt" di dalam tag <form>---*/
+.edt {
+  margin-left: 50px;
+  color: #ffff;
+  font-size: 18px;
+}
+/*---mengatur css pada class "del" di dalam tag <h2>---*/
+.del {
+  text-align: center;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 100px;
+}
+/*---mengatur css pada class "line" di dalam tag <p>---*/
+.line2 {
+  background-color: rgba(148, 63, 14, 0.904);
+  width: 34%;
+  height: 15px;
+  text-align: center;
+  margin-left: 33%;
+  color: rgba(148, 63, 14, 0.904);
+}
+/*---mengatur css pada class "desk_del" di dalam tag <p>---*/
+.desk_del {
+  margin: 40px 110px 100px 110px;
+  padding: 0px 50px 0px 50px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 35px;
+}
+/*---mengatur css pada class "location" di dalam tag <div>---*/
+.location {
+  font-family: Spectral;
+  margin-top: 70px;
+  background-color: rgb(68, 38, 21);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/*---mengatur css pada class "headlocation" di dalam tag <div>---*/
+.headlocation {
+  text-align: center;
+}
+/*---mengatur css pada class "storeplace" di dalam tag <h2>---*/
+.storeplace {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+/*---mengatur css pada class "order" di dalam tag <p>---*/
+.order {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+}
+/*---mengatur css pada class "alamat" di dalam tag <p>---*/
+.alamat {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: rgba(255, 255, 255, 0.932);
+}
+/*---mengatur css pada tag <table> di dalam class "location"---*/
+.location table {
+  object-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*---mengatur css pada class "copyright"---*/
+.copyright {
+  background: rgba(255, 255, 255, 0.993);
+  text-align: center;
+  padding: 1px 0px 1px 0px;
+  font-size: 18px;
+  color: #636363;
+}
+
+#kirim {
+  padding: 10px;
+  background-color: #442615;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+#kirim {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 6em;
+}
